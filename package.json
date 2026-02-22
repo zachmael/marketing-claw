@@ -1,0 +1,54 @@
+{
+  "name": "marketing-claw",
+  "version": "1.0.0",
+  "description": "A pre-configured 12-agent AI marketing squad for OpenClaw. Analytics, content, social, newsletters, and lead generation — running autonomously.",
+  "type": "module",
+  "main": "setup.mjs",
+  "bin": {
+    "marketing-claw": "./setup.mjs"
+  },
+  "scripts": {
+    "setup": "node setup.mjs",
+    "start": "node setup.mjs"
+  },
+  "keywords": [
+    "openclaw",
+    "ai",
+    "marketing",
+    "automation",
+    "agents",
+    "cron",
+    "social-media",
+    "newsletter",
+    "lead-generation",
+    "content-marketing"
+  ],
+  "openclaw": {
+    "skill": true,
+    "entry": "SKILL.md",
+    "tier": ["starter", "pro"],
+    "agents": 12,
+    "category": "marketing"
+  },
+  "author": "Marketing Claw",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/marketing-claw.git"
+  },
+  "homepage": "https://github.com/your-org/marketing-claw#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "SKILL.md",
+    "README.md",
+    "LICENSE",
+    "setup.mjs",
+    "templates/",
+    "agents/",
+    "playbooks/",
+    "dashboards/",
+    "docs/"
+  ]
+}
